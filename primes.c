@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 	{ /* Child Process */
 		mypid = getpid();
 		//printf("[%d] child\n", mypid);
-		long long int i;
+		long long i;
 		for(i = 0; i < 18446744073709000000; i++)
 		{
 			int p = isPrime(i);
